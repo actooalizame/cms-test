@@ -1,0 +1,8 @@
+Meteor.methods({
+  'insertItem': function(){
+    
+    
+  }
+    
+   
+});

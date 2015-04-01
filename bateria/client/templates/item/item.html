@@ -1,0 +1,18 @@
+<template name="itemList">
+  <ul class="products">
+    
+    {{#each items }}
+    <div class="col-md-4">
+      <li class="item">
+        <img class="img-responsive" src="{{url}}"/>
+        <div class="pd-description">
+          <h3>{{name}}</h3>
+          <p>{{ price }}</p>
+        </div>
+        <button type="button" class="btn btn-success center-block" data-toggle="modal" data-target="#myModal{{modalNumber}}">Ver Galeria</button>
+      </li>
+    </div>
+      {{/each}}
+    </ul>
+  
+</template>

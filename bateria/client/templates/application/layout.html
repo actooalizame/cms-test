@@ -1,0 +1,22 @@
+<template name="layout">
+  
+  {{> fold}}
+
+  {{#if currentUser}}
+  
+    {{> addProductForm }}
+  
+  {{else}}
+  
+    {{> contactCTA }}
+  
+  {{/if}}
+  <div id="main" class="container">
+   
+    {{> yield }}
+    
+    <hr>
+
+  </div>
+  
+</template>

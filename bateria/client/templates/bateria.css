@@ -1,0 +1,120 @@
+/* CSS declarations go here */
+
+#fold-container {
+  height: 600px;
+  overflow: hidden;
+}
+
+.fold {
+  height: 100%;
+  width: 100%;
+  background: url('img/future.jpg') no-repeat 50% 50%; 
+  background-color: #4e5079;
+  background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+}
+
+.hero-img {
+   margin-top: 11em;
+}
+
+.carousel-inner > .item > img{
+  height:425px;
+}
+
+.fold-text {
+  margin-top: 11em;
+  text-align: center;
+}
+
+.fold-text h1 {
+  margin-bottom: .5em;
+  font-family: 'Alegreya SC', serif;
+  font-size: 5.5em;
+  color: rgb(252, 203, 212);
+  font-weight: 900;
+  font-style: italic;
+  letter-spacing: 2px;
+  /*animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -webkit-animation-delay: 1s;
+  animation-duration: .8s;
+  -moz-animation-duration: .8s;
+   -webkit-animation-duration: .8s;
+  
+  animation-iteration-count: 1;
+  -moz-animation-iteration-count: 1;
+  -webkit-animation-iteration-count: 1;*/
+}
+
+.fold button {
+  animation-delay: 4s;
+  -moz-animation-delay: 4s;
+  -webkit-animation-delay: 4s;
+}
+
+.hero-img {
+  animation-delay: .8s;
+  -moz-animation-delay: .8s;
+  -webkit-animation-delay: .8s;
+}
+
+ul {
+  list-style: none;
+  margin-top: 2em;
+}
+
+ul.products img {
+  height: 200px;
+  width: 100%;
+}
+
+ul.products li{
+  display: block;
+  height: 373px;
+}
+
+.admin-form {
+  padding: 1.2em;
+ /* display: none;*/
+}
+
+.pd-description {
+  font-family: 'Alegreya SC', serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.pd-description p {
+  color: rgb(205, 46, 46);
+  font-size: 23px;
+  line-height: 0.8;
+  text-indent: 10px;
+}
+
+.item button {
+  margin-top: 1.4em;
+}
+
+.contact-cta {
+  height: 79px;
+  padding: 1px;
+  text-align: center;
+  background: #181717;
+  color: #fff;
+}
+
+.contact-cta h2 {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 36px
+}
+
+.centered { text-align: center; }
+
+
+
+
